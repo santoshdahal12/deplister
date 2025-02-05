@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"deplister/pkg/scanners"
+	"github.com/santoshdahal12/deplister/pkg/scanners"
 
 	"github.com/stretchr/testify/assert"
 )

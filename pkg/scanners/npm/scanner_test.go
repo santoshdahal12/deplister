@@ -2,10 +2,11 @@ package npm
 
 import (
 	"context"
-	"deplister/pkg/scanners"
 	"os"
 	"path/filepath"
 	"testing"
+
+	"github.com/santoshdahal12/deplister/pkg/scanners"
 
 	"github.com/stretchr/testify/assert"
 )

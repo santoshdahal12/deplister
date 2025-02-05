@@ -9,9 +9,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"deplister/pkg/scanners"
-	"deplister/pkg/scanners/golang"
-	"deplister/pkg/scanners/npm"
+	"github.com/santoshdahal12/deplister/pkg/scanners"
+	"github.com/santoshdahal12/deplister/pkg/scanners/golang"
+	"github.com/santoshdahal12/deplister/pkg/scanners/npm"
 )
 
 type OutputFormat struct {

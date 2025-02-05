@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"deplister/pkg/scanners"
+	"github.com/santoshdahal12/deplister/pkg/scanners"
 )
 
 type GoScanner struct {

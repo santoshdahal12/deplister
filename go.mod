@@ -1,4 +1,4 @@
-module deplister
+module github.com/santoshdahal12/deplister
 
 go 1.22.0
 
