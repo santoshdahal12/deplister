@@ -50,7 +50,7 @@ Deplister is built to provide deep visibility into your project's dependency str
 
 ### Using Go Install
 ```bash
-go install github.com/santoshdahal12/deplister@latest
+go install github.com/santoshdahal12/deplister@v0.0.1
 ```
 
 ### Building from Source
@@ -106,7 +106,7 @@ steps:
     with:
       go-version: '1.21'
   - name: Install Deplister
-    run: go install github.com/santoshdahal12/deplister@latest
+    run: go install github.com/santoshdahal12/deplister@v0.0.1
   - name: Analyze Dependencies
     run: deplister -pretty > dependency-report.json
 ```
@@ -117,7 +117,7 @@ pipeline {
     stages {
         stage('Dependency Analysis') {
             steps {
-                sh 'go install github.com/santoshdahal12/deplister@latest'
+                sh 'go install github.com/santoshdahal12/deplister@v0.0.1'
                 sh 'deplister -text > dependency-report.txt'
             }
         }
